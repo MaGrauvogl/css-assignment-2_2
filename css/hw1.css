@@ -1,0 +1,90 @@
+/* Second Homework in CSS from Manfred Grauvogl */
+
+body{
+	margin: 1%;
+	padding: 1%;
+}
+
+header{
+	background-image: url("../images/flywheel.jpg");
+	background-color: rgba(0, 200, 0, 0.3);
+	background-size: cover;
+	height: 160px;
+}
+h1{
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 1%;
+	font-size: 150%;
+}
+
+nav a{
+	background-color: rgba(255, 255, 255, 0.5);
+	color: rgb(0,0,0);
+	font-size: 110%;
+	display: inline-block;
+	width: 12%;
+	text-align: center;
+	padding: 1% 2%;
+	margin-left: 3%;
+	margin-right: 3%;
+	border-radius: 5%;
+	text-decoration: none;
+}
+
+.active{
+	background-color: rgba(255, 255, 255, 1.0);
+}
+
+a:focus{
+	background-color: rgb(100, 100, 100);
+}
+
+a:visited{
+	color: rgb(139, 0, 139);
+}
+
+
+.left{
+	width: 20%;
+	height: 90%;
+	display: inline-block;
+	float: left;
+	background-color: rgb(0,200,20);
+	padding-bottom: 15%;
+}
+
+.right{
+	width: 70%;
+	display: inline-block;
+	float: left;
+	margin-left: 2%;
+}
+
+.left img{
+	display: block;	
+	width: 80%;
+	height: 80%;
+	border-width: medium;
+	border-color: rgb(0,0,0);
+	border-style: solid;
+	margin: 15% auto 15% auto;
+	
+}
+
+.left a:visited img{
+	border-width: medium;
+	border-color: rgb(0,0,255);
+	border-style: solid;
+}
+
+.left a:focus img{
+	border-width: thick;
+	border-color: rgb(255,255,255);
+	border-style: solid;
+}
+	
+p{
+	overflow: auto;
+}
